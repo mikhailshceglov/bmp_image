@@ -112,12 +112,7 @@
 
 ![Пример исходного изображения](image/out_shift.png)
 
-Для получения списка всех доступных параметров используйте флаг:
-```bash
-./coursework --help
-```bash
-./coursework --input deer.bmp --output out.bmp --hexagon --center 100.100 --radius 40 --thickness 3 --color 255.0.0 --fill --fill_color 200.200.200
-```
+**Oстальные команды и их описание находтся в --help**
 
 ## .gitignore (рекомендуемый)
 ```
