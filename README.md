@@ -59,7 +59,7 @@
 ./coursework --input deer.bmp --output out.bmp --hexagon --center 100.100 --radius 40 --thickness 3 --color 255.0.0 --fill --fill_color 200.200.200
 ```
 
-![Пример исходного изображения](out_hexagon.png)
+![Пример исходного изображения](image/out_hexagon.png)
 
 
 ### Дополнительные примеры:
