@@ -68,46 +68,49 @@
 ```bash
 ./coursework --input deer.bmp --output out.bmp --copy --left_up 50.50 --right_down 150.150 --dest_left_up 200.200
 ```
-
-**Замена белого цвета на чёрный:**
-```bash
-./coursework --input deer.bmp --output out.bmp --color_replace --old_color 255.255.255 --new_color 0.0.0
-```
+![Пример исходного изображения](image/out_copy.png)
 
 **Наложение прямоугольного орнамента:**
 ```bash
 ./coursework --input deer.bmp --output out.bmp --ornament --pattern rectangle --thickness 2 --color 0.0.255 --count 5
 ```
 
+![Пример исходного изображения](image/out_ornament.png)
+
 **Бинаризация изображения:**
 ```bash
 ./coursework --input deer.bmp --output out.bmp --binarization --threshold 300
 ```
 
-**Сжатие изображения (в 2 раза):**
-```bash
-./coursework --input deer.bmp --output out.bmp --compress --num 2
-```
+![Пример исходного изображения](image/out_binarization.png)
 
 **Зеркальное отражение области по диагонали:**
 ```bash
 ./coursework --input deer.bmp --output out.bmp --diag_mirror --left_up 30.30 --right_down 100.100
 ```
 
+![Пример исходного изображения](image/out_diag.png)
+
 **Размытие изображения (окно 5x5):**
 ```bash
 ./coursework --input deer.bmp --output out.bmp --blur --size 5
 ```
+
+![Пример исходного изображения](image/out_blur.png)
 
 **Добавление внешнего орнамента:**
 ```bash
 ./coursework --input deer.bmp --output out.bmp --outside_ornament --thickness 10 --color 0.255.0
 ```
 
+![Пример исходного изображения](image/out_outside.png)
+
 **Сдвиг изображения по оси X на 20 пикселей:**
 ```bash
-./coursework --input deer.bmp --output out.bmp --shift --step 20 --axis x
+./coursework --input deer.bmp --output out.bmp --shift --step 100 --axis xy
 ```
+
+![Пример исходного изображения](image/out_shift.png)
 
 Для получения списка всех доступных параметров используйте флаг:
 ```bash
